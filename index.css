@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background: url("https://nba.nbcsports.com/wp-content/uploads/sites/12/2016/10/619322328.jpg?w=1024");
+    background-size:  cover;
+    object-fit: cover;
+    
+}
+
+@font-face{
+    src : url("digital-7.ttf");
+    font-family: digitalClock;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0 0 1px black;
+    
+}
+
+button{
+    background: #333762;
+    border: 1px solid white;
+    text-shadow: 0 0 1px black;
+    width: 45px;
+    height: 45px;
+    border-radius: 6px;
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EEEEEE;
+    font-size: 40px;
+    line-height: 36px;
+    margin: 0 0;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 90px;
+    font-family:  digitalClock;
+    color: red;
+    text-align: center;
+    /* border:  2px solid #080001;; */
+    border-radius: 8px;
+    background: #080001;
+    margin: 25px 0;
+    font-family:  
+    
+}
+
+h1:hover{
+    /* border-bottom: 1px solid black */
+    text-decoration:3px #333762 underline;
+}
